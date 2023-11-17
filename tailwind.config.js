@@ -14,12 +14,12 @@ module.exports = {
     nextui({
       themes: {
         light: {
-          layout: {}, // light theme layout tokens
-          colors: { background: "#F5F5F5" }, // light theme colors
+          layout: {},
+          colors: { background: "#F5F5F5" }, 
         },
         dark: {
-          layout: {}, // dark theme layout tokens
-          colors: { background: "#020617" }, // dark theme colors
+          layout: {},
+          colors: { background: "#020617" }, 
         },
       },
     }),
