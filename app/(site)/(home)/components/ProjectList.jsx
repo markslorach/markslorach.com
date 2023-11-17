@@ -5,10 +5,9 @@ import Link from "next/link";
 import ProjectCard from "./ProjectCard";
 
 // Data fetch coming from HomePage.jsx
-export default function ProjectList({ projects, recentProjects }) {
+export default function ProjectList({ projects }) {
   return (
-    <div>
-      <h2 className="mb-6">{recentProjects}</h2>
+    <div className="mb-16">
       <Link href={"/projects"}>
         <section className="flex flex-col gap-5">
           {projects.map((project) => (

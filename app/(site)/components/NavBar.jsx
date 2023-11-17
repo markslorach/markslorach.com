@@ -23,7 +23,7 @@ export default function NavBar() {
               {title}
             </Link>
           ))}
-          <ThemeSwitcher />
+          {/* <ThemeSwitcher /> */}
         </div>
       </nav>
     </header>
