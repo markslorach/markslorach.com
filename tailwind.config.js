@@ -15,7 +15,7 @@ module.exports = {
       themes: {
         light: {
           layout: {}, // light theme layout tokens
-          colors: {}, // light theme colors
+          colors: { background: "#F5F5F5" }, // light theme colors
         },
         dark: {
           layout: {}, // dark theme layout tokens
@@ -23,5 +23,5 @@ module.exports = {
         },
       },
     }),
-  ]
+  ],
 };
