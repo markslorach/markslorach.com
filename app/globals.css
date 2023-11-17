@@ -42,7 +42,7 @@ h2 {
 
 /* Home page contact links */
 .home-contact-links-container {
-  @apply mb-24 mt-6 flex flex-wrap sm:flex-nowrap gap-5;
+  @apply mb-28 mt-6 flex flex-wrap sm:flex-nowrap gap-5;
 }
 
 .home-contact-links {
