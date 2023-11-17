@@ -1,6 +1,9 @@
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
+
+// Components
 import Providers from "./providers";
+import NavBar from "./(site)/components/NavBar";
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -18,7 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={ubuntu.className}>
         <Providers>
-          <main>{children}</main>
+          <main>
+            <NavBar />
+            {children}
+          </main>
         </Providers>
       </body>
     </html>

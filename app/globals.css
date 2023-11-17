@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply max-w-xl mx-auto px-4
+}
+
+h2 {
+  @apply text-base font-semibold tracking-wide leading-none
+}
+
+.text-highlight {
+  @apply text-blue-400
+}
+
+/* Navigation */
+.nav {
+  @apply flex justify-between py-16 items-center
+}
+
+.nav-logo {
+  @apply text-black/90 dark:text-white/90 text-base font-semibold tracking-wide leading-none;
+}
+
+.nav-logo-span {
+  @apply text-black/70 dark:text-white/70
+}
+
+.nav-links-container {
+  @apply flex gap-4 items-center leading-none
+}
+
+.nav-links {
+  @apply flex items-center text-black/70 hover:text-black/90 dark:text-white/70 text-base tracking-wide leading-none dark:hover:text-white/90 transition duration-300 ease-in-out
+}
+
+/* Hero */
+.hero-title {
+  @apply text-3xl font-semibold tracking-wide
+}
+
+/* Home page contact links */
+.home-contact-links-container {
+  @apply mb-24 mt-6 flex flex-wrap sm:flex-nowrap gap-5
+}
+
+.home-contact-links {
+  @apply text-secondary flex gap-2 items-center text-base tracking-wide leading-none hover:text-white/90 transition duration-300 ease-in-out
+}

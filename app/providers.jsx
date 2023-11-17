@@ -9,7 +9,7 @@ export default function Providers({ children }) {
       <NextThemesProvider
         attribute="class"
         defaultTheme="dark"
-        themes={["light", "dark", "modern"]}
+        themes={["light", "dark"]}
       >
         {children}
       </NextThemesProvider>
