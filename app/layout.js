@@ -4,6 +4,7 @@ import "./globals.css";
 // Components
 import Providers from "./providers";
 import NavBar from "./(site)/components/NavBar";
+import Footer from "./(site)/components/Footer";
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           <main>
             <NavBar />
             {children}
+            <Footer/>
           </main>
         </Providers>
       </body>

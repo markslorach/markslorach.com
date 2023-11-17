@@ -20,11 +20,11 @@ h2 {
 }
 
 .nav-logo {
-  @apply text-black/90 dark:text-white/90 text-base font-semibold tracking-wide leading-none;
+  @apply text-white/90 text-base font-semibold tracking-wide leading-none;
 }
 
 .nav-logo-span {
-  @apply text-black/70 dark:text-white/70;
+  @apply text-white/70;
 }
 
 .nav-links-container {
@@ -32,12 +32,12 @@ h2 {
 }
 
 .nav-links {
-  @apply flex items-center text-black/70 hover:text-black/90 dark:text-white/70 text-base tracking-wide leading-none dark:hover:text-white/90 transition duration-300 ease-in-out;
+  @apply flex items-center text-white/70 text-base tracking-wide leading-none hover:text-white/90 transition duration-300 ease-in-out;
 }
 
 /* Hero */
 .hero-title {
-  @apply text-3xl font-semibold tracking-wide;
+  @apply text-3xl font-semibold tracking-wide mb-28;
 }
 
 /* Home page contact links */
@@ -46,5 +46,5 @@ h2 {
 }
 
 .home-contact-links {
-  @apply text-black/70 dark:text-white/70 flex gap-2 items-center text-base tracking-wide leading-none hover:text-black/90 dark:hover:text-white/90 transition duration-300 ease-in-out;
+  @apply text-white/70 flex gap-2 items-center text-base tracking-wide leading-none hover:text-white/90 transition duration-300 ease-in-out;
 }
