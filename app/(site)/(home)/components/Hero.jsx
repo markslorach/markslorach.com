@@ -15,8 +15,8 @@ export default function Hero() {
       </figure>
       <div className="hero-title">
         <h1 className="text-black/90 dark:text-white/90">
-          Hello! <Link href={'/about'}><span className="text-highlight">I'm Mark</span></Link>, a design and
-          user experience focused software developer based in Scotland.
+          Hello! <Link href={'/about'}><span className="text-highlight">I'm Mark</span></Link>.<br/><span className="text-white/70">A design and
+          user experience focused software developer based in Scotland.</span>
         </h1>
       </div>
     </section>

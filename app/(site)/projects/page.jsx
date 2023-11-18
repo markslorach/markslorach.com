@@ -1,7 +1,13 @@
-import React from 'react'
+import { getProjects } from "@/sanity/sanity-utils";
+import ProjectList from "../(home)/components/ProjectList";
 
-export default function page() {
+export default async function Projects() {
+  const projects = await getProjects();
+
   return (
-    <div>page</div>
-  )
+    <>
+      <h2 className="mb-6">Projects</h2>
+      <ProjectList projects={projects} />
+    </>
+  );
 }

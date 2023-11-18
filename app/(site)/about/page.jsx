@@ -1,7 +1,15 @@
-import React from 'react'
+import { getProjects } from "@/sanity/sanity-utils";
+import Profile from "./Profile";
+import Hero from "../(home)/components/Hero";
 
-export default function page() {
+export default async function About() {
+  const projects = await getProjects();
+
   return (
-    <div>page</div>
-  )
+    <>
+      <Hero />
+      <h2 className="mb-5">About</h2>
+      <Profile />
+    </>
+  );
 }

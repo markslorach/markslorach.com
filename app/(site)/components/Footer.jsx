@@ -20,7 +20,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="my-16">
+    <footer className="mt-28 mb-16">
       <h2 className="mb-6">Contact</h2>
       <div className="grid grid-cols-4 gap-4 tracking-wide">
         <div className="col-span-1">
