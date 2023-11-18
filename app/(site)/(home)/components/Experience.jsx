@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <section>
+    <section className="mt-16">
       <h2 className="mb-6">Experience</h2>
 
       <div class="grid grid-cols-4 gap-4 tracking-wide">

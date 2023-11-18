@@ -9,7 +9,7 @@ export default function ProjectCard({ title, summary, github, image }) {
       </figure>
       <aside className="flex flex-col justify-between w-full sm:w-1/2 tracking-wide leading-none">
         <h2 className="text-black/90 dark:text-white/90">{title}</h2>
-        <p className="text-sm text-black/60 dark:text-white/70">{summary}</p>
+        <p className="text-sm font-light text-black/60 dark:text-white/70">{summary}</p>
         <div className="flex justify-end">
           <GitHubIcon
             onClick={(e) => {
