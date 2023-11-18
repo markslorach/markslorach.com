@@ -2,9 +2,11 @@
 
 // Icons
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Link from "next/link";
 
-export default function ProjectCard({ title, summary, github, image }) {
+export default function ProjectCard({ title, summary, github, image, slug }) {
   return (
+    <Link href={`/projects/${slug}`}>
     <article className="project-card">
       <figure className="project-card-image-container">
         <img src={image} alt={title} className="project-card-image" />
@@ -23,5 +25,6 @@ export default function ProjectCard({ title, summary, github, image }) {
         </div>
       </aside>
     </article>
+    </Link>
   );
 }

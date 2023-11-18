@@ -32,7 +32,7 @@ h2 {
 }
 
 .nav-links-container {
-  @apply flex gap-3 sm:gap-4 items-center leading-none;
+  @apply flex gap-4 sm:gap-4 items-center leading-none;
 }
 
 .nav-links {

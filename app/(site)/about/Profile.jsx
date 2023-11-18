@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Profile() {
   return (
     <>
-      <section className="text-white/70 text-base font-light tracking-wide leading-relaxed p-0 m-0">
+      <section className="text-white/70 text-base font-light tracking-wide leading-relaxed">
         <p className="mb-5">
           I am a recent graduate of a 16-week software development bootcamp at
           CodeClan, where I built a solid understanding of programming
@@ -18,7 +18,7 @@ export default function Profile() {
           user-friendly applications during my studies. The pace of the course
           allowed me to pick up skills quickly and demonstrate my understanding
           through creating{" "}
-          <strong className="font-semibold text-blue-400 hover:text-blue-300 transition duration-300 ease-in-out">
+          <strong className="font-semibold text-blue-400">
             <Link href={"/projects"}>full-stack projects</Link>
           </strong>
           .
