@@ -38,7 +38,7 @@ export default function ImageCarousel({ images }) {
 
   return (
     <motion.div
-      className="relative overflow-hidden rounded-sm"
+      className="relative overflow-hidden rounded-md"
       initial="hidden"
       animate="show"
       variants={animateImageIn}

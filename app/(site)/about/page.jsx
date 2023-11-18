@@ -8,7 +8,7 @@ export default async function About() {
   return (
     <>
       <Hero />
-      <h2 className="mb-5">About</h2>
+      <h2 className="mb-4">About</h2>
       <Profile />
     </>
   );

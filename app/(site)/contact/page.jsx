@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div>page</div>
+    <h2 className='mb-4'>Contact</h2>
   )
 }

@@ -11,7 +11,10 @@ export default async function Project({ params }) {
 
   return (
     <main>
-      <ImageCarousel images={project.images} />
+      <figure className="mb-16">
+        <ImageCarousel images={project.images} />
+      </figure>
+      <h2 className="mb-4">{project.title}</h2>
     </main>
   );
 }

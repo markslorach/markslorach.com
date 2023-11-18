@@ -5,7 +5,9 @@ export default function Experience() {
 
       <div class="grid grid-cols-4 gap-4 tracking-wide">
         <div class="col-span-1">
-          <h2 className=" leading-none font-light text-white/70">May - Sept' 23</h2>{" "}
+          <h2 className=" leading-none font-light text-white/70">
+            May - Sept' 23
+          </h2>{" "}
         </div>
         <div class="col-span-3">
           <h2 className="mb-2">CodeClan</h2>
