@@ -1,8 +1,5 @@
 import Link from "next/link";
 
-// Components
-import ThemeSwitcher from "./ThemeSwitcher";
-
 export default function NavBar() {
   return (
     <header>
@@ -23,7 +20,6 @@ export default function NavBar() {
               {title}
             </Link>
           ))}
-          {/* <ThemeSwitcher /> */}
         </div>
       </nav>
     </header>

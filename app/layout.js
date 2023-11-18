@@ -2,7 +2,6 @@ import { Ubuntu } from "next/font/google";
 import "./globals.css";
 
 // Components
-import Providers from "./providers";
 import NavBar from "./(site)/components/NavBar";
 import Footer from "./(site)/components/Footer";
 
@@ -21,13 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={ubuntu.className}>
-        <Providers>
-          <main>
-            <NavBar />
-            {children}
-            <Footer/>
-          </main>
-        </Providers>
+        <main>
+          <NavBar />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );
