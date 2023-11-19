@@ -15,13 +15,15 @@ export default function ProjectCard({ title, summary, github, image, slug }) {
           <h2 className="project-card-title">{title}</h2>
           <p className="project-card-summary">{summary}</p>
           <div className="flex justify-end">
-            <GitHubIcon
+            <button
               className="project-github-icon"
               onClick={(e) => {
                 e.preventDefault();
                 window.open(github, "_blank");
               }}
-            />
+            >
+              <GitHubIcon />
+            </button>
           </div>
         </aside>
       </article>
