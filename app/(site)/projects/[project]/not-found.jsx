@@ -14,7 +14,7 @@ export default function NotFound() {
         />
       </figure>
       <h1 className="text-7xl leading-none tracking-wide font-bold text-white/90">404</h1>
-      <p className="text-base font-semibold leading-none tracking-wide text-white/70">Sorry, I couldn't find the page you are looking for!</p>
+      <p className="text-sm sm:text-base font-semibold leading-none tracking-wide text-white/70">Sorry, I couldn't find the page you are looking for!</p>
       </div>
 
       
