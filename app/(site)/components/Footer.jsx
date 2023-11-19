@@ -22,8 +22,8 @@ export default function Footer() {
   return (
     <footer className="mt-28 mb-16">
       <h2 className="mb-6">Links</h2>
-      <div className="grid grid-cols-4 gap-4 tracking-wide">
-        <div className="col-span-1">
+      <div className="grid grid-cols-4 sm:gap-4 tracking-wide">
+        <div className="col-span-2 sm:col-span-1">
           {contactDetails.map((detail) => (
             <div
               className="flex mb-4 text-white/70 font-light"
@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="col-span-3 gap-4">
+        <div className="col-span-2 sm:col-span-3 gap-4">
           {contactDetails.map((detail) => (
             <div
               className="flex mb-4 text-white/70 hover:text-white/90 transition duration-300 ease-in-out"

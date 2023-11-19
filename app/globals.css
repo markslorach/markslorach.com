@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply max-w-xl mx-auto px-4 sm:px-0;
+  @apply max-w-xl mx-auto px-3 sm:px-0;
 }
 
 h2 {
