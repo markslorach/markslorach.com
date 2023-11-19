@@ -14,7 +14,7 @@ export default function NavBar() {
           {[
             ["about", "/about"],
             ["projects", "/projects"],
-            ["contact", "#contact"],
+            ["contact", "/#contact"],
           ].map(([title, url], index) => (
             <Link key={index} href={url} className="nav-links">
               {title}
