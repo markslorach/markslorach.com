@@ -3,7 +3,7 @@ export default function Experience() {
     <section className="mt-16">
       <h2 className="mb-6">Experience</h2>
 
-      <div class="grid grid-cols-5 sm:gap-4 tracking-wide">
+      <div class="grid grid-cols-5 sm:grid-cols-4 sm:gap-4 tracking-wide">
         <div class="col-span-2 sm:col-span-1">
           <h2 className=" leading-none font-light text-white/70">
             May - Sept' 23
