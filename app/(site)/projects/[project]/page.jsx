@@ -21,7 +21,7 @@ export default async function Project({ params }) {
       <figure className="mb-16">
         <ImageCarousel images={project.images} />
       </figure>
-      <h2 className="mb-4">{project.title}</h2>
+      <h2 className="">{project.title}</h2>
       <PortableText value={project.content} components={RichTextComponents} />
     </main>
   );

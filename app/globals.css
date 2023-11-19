@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 html {
-  @apply bg-slate-950 overflow-y-scroll;
+  @apply bg-slate-950;
 }
 
 body {
-  @apply max-w-xl mx-auto px-4 sm:px-0;
+  @apply max-w-xl mx-auto px-4 sm:px-0 overflow-y-scroll;
 }
 
 h2 {

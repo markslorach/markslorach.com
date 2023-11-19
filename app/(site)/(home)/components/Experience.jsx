@@ -15,12 +15,10 @@ export default function Experience() {
             Professional Software Development
           </h3>
           <p className="font-light text-white/70 mb-4">
-            This course provides comprehensive training on a variety of
-            programming languages and frameworks. It equips students with the
-            necessary skills to build and deploy full-stack web applications.
+          I spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.
           </p>
           <p className="text-white/70 font-light text-sm">
-            JavaScript • React • Node.js • Express.js • MongoDB
+            JavaScript • React • Express.js • PostgreSQL • MongoDB • Java • Spring
           </p>
         </div>
       </div>
