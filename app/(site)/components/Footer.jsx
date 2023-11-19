@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   const contactDetails = [
     {
-      href: "/",
+      href: "mailto:hello@markslorach.com",
       icon: "Email",
       text: "hello@markslorach.com",
     },
@@ -39,7 +39,7 @@ export default function Footer() {
               className="flex mb-4 text-white/70 hover:text-white/90 transition duration-300 ease-in-out"
               key={detail.text}
             >
-              <Link href={detail.href}>
+              <Link href={detail.href} target="blank">
                 <p>{detail.text}</p>
               </Link>
             </div>
