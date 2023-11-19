@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply bg-slate-950 overflow-y-scroll;
+  @apply bg-slate-950 overflow-y-scroll scroll-smooth;
 }
 
 body {
@@ -50,7 +50,7 @@ h2 {
 }
 
 .project-card-image-container {
-  @apply w-full sm:w-1/2;
+  @apply w-full sm:w-1/2 overflow-hidden rounded-md;
 }
 
 .project-card-image {
