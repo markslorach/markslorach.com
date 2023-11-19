@@ -1,8 +1,8 @@
 "use client";
+import Link from "next/link";
 
 // Icons
 import GitHubIcon from "@mui/icons-material/GitHub";
-import Link from "next/link";
 
 export default function ProjectCard({ title, summary, github, image, slug }) {
   return (

@@ -11,13 +11,13 @@ export default function Experience() {
         </div>
         <div class="col-span-3 sm:col-span-3">
           <h2 className="mb-2">CodeClan</h2>
-          <h3 className="text-white/70 text-sm mb-4 font-light">
+          <h3 className="text-white/50 text-sm mb-4 font-light">
             Professional Software Development
           </h3>
           <p className="font-light text-white/70 mb-4">
-          I spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.
+          Spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.
           </p>
-          <p className="text-white/70 font-light text-sm">
+          <p className="text-white/50 font-light text-sm">
             JavaScript • React • Express.js • PostgreSQL • MongoDB • Java • Spring
           </p>
         </div>
