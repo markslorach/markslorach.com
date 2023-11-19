@@ -3,13 +3,13 @@ export default function Experience() {
     <section className="mt-16">
       <h2 className="mb-6">Experience</h2>
 
-      <div class="grid grid-cols-4 sm:gap-4 tracking-wide">
+      <div class="grid grid-cols-5 sm:gap-4 tracking-wide">
         <div class="col-span-2 sm:col-span-1">
           <h2 className=" leading-none font-light text-white/70">
             May - Sept' 23
           </h2>{" "}
         </div>
-        <div class="col-span-2 sm:col-span-3">
+        <div class="col-span-3 sm:col-span-3">
           <h2 className="mb-2">CodeClan</h2>
           <h3 className="text-white/70 text-sm mb-4 font-light">
             Professional Software Development
