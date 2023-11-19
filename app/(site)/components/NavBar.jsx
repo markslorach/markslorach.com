@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header>
+    <header id="top">
       <nav className="nav">
         <Link href={"/"}>
           <h1 className="nav-logo">
