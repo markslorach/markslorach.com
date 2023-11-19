@@ -11,6 +11,7 @@ export default function Hero() {
           height={60}
           alt="Mark Slorach"
           className="hero-image"
+          placeholder="blur"
         />
       </figure>
       <div className="hero-title">
