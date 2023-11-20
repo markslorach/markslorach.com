@@ -66,11 +66,11 @@ h2 {
 }
 
 .project-card-title {
-  @apply text-black/90 dark:text-white/90 mb-3 sm:mb-0;
+  @apply text-white/90 mb-3 sm:mb-0;
 }
 
 .project-card-summary {
-  @apply text-sm font-light text-black/60 dark:text-white/70 mb-3 sm:mb-0;
+  @apply text-sm font-light text-white/50 mb-3 sm:mb-0;
 }
 
 .project-card-links {
