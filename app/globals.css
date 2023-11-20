@@ -41,7 +41,11 @@ h2 {
 
 /* Hero */
 .hero-title {
-  @apply text-3xl font-semibold tracking-wide mb-16;
+  @apply text-3xl font-semibold tracking-wide mb-16 text-white/90;
+}
+
+.hero-span {
+  @apply text-white/70
 }
 
 /* Project card */
@@ -67,6 +71,10 @@ h2 {
 
 .project-card-summary {
   @apply text-sm font-light text-black/60 dark:text-white/70 mb-3 sm:mb-0;
+}
+
+.project-card-links {
+  @apply flex justify-end
 }
 
 .project-github-icon {

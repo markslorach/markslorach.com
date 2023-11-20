@@ -4,17 +4,17 @@ export default function Footer() {
   const contactDetails = [
     {
       href: "mailto:hello@markslorach.com",
-      icon: "Email",
+      name: "Email",
       text: "hello@markslorach.com",
     },
     {
       href: "https://www.linkedin.com/in/markslorach/",
-      icon: "LinkedIn",
+      name: "LinkedIn",
       text: "in/markslorach",
     },
     {
       href: "https://github.com/markslorach",
-      icon: "GitHub",
+      name: "GitHub",
       text: "git/markslorach",
     },
   ];
@@ -29,7 +29,7 @@ export default function Footer() {
               className="flex mb-4 text-white/70 font-light"
               key={detail.text}
             >
-              {detail.icon}
+              {detail.name}
             </div>
           ))}
         </div>

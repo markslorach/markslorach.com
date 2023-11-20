@@ -14,7 +14,7 @@ export default function ProjectCard({ title, summary, github, image, slug }) {
         <aside className="project-card-info-container">
           <h2 className="project-card-title">{title}</h2>
           <p className="project-card-summary">{summary}</p>
-          <div className="flex justify-end">
+          <div className="project-card-links">
             <button
               className="project-github-icon"
               onClick={(e) => {

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="m-0">
-      <figure className="pb-2">
+    <section>
+      <figure className="mb-4">
         <Image
           src="/images/me.png"
           width={60}
@@ -14,13 +14,13 @@ export default function Hero() {
         />
       </figure>
       <div className="hero-title">
-        <h1 className="text-black/90 dark:text-white/90">
+        <h1>
           Hello!{" "}
           <Link href={"/about"}>
             <span className="text-highlight">I'm Mark</span>
           </Link>
           .<br />
-          <span className="text-white/70">
+          <span className="hero-span">
             A design and user experience focused software developer based in
             Scotland.
           </span>

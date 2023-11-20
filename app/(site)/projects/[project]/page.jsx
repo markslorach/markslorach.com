@@ -38,7 +38,7 @@ export default async function Project({ params }) {
           target="_blank"
           className="flex items-center gap-2"
         >
-        <GitHubIcon fontSize="medium" className="text-white/90" />
+        <GitHubIcon fontSize="medium" className="text-white/70 hover:text-white/90 hover:scale-105 transition-all duration-300 ease-in-out" />
       </Link>
       </div>
 
