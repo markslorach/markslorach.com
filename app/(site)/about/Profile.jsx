@@ -7,7 +7,7 @@ export default function Profile() {
         <p className="mb-5">
           I recently graduated from a 16-week software development boot camp at
           CodeClan, where I built a solid understanding of programming
-          fundamentals. During the program, I learned Python,{" "}
+          fundamentals. During the course, I learned Python,{" "}
           <strong className="font-normal text-white/90">JavaScript</strong> and
           Java as well as working with Test Driven Development,{" "}
           <strong className="font-normal text-white/90">Frameworks</strong>, and{" "}
