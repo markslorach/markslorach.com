@@ -17,7 +17,7 @@ export default function Experience() {
           <p className="font-light text-white/70 mb-4">
           Spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.
           </p>
-          <p className="text-white/50 font-light text-sm">
+          <p className="text-white/50 font-light text-sm leading-relaxed">
             JavaScript • React • Express.js • PostgreSQL • MongoDB • Java • Spring
           </p>
         </div>
