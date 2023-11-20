@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Profile() {
   return (
     <>
-      <section className="text-white/70 text-base font-light tracking-wide leading-relaxed">
+      <section className="text-white/70 text-base font-light tracking-wide">
         <p className="mb-5">
           I am a recent graduate of a 16-week software development bootcamp at
           CodeClan, where I built a solid understanding of programming
