@@ -1,4 +1,4 @@
-import { Ubuntu } from "next/font/google";
+// import { Ubuntu } from "next/font/google";
 import { GeistSans } from 'geist/font/sans';
 import "./globals.css";
 
@@ -6,10 +6,10 @@ import "./globals.css";
 import NavBar from "./(site)/components/NavBar";
 import Footer from "./(site)/components/Footer";
 
-const ubuntu = Ubuntu({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-});
+// const ubuntu = Ubuntu({
+//   subsets: ["latin"],
+//   weight: ["300", "400", "500", "700"],
+// });
 
 export const metadata = {
   title: "Mark Slorach - Software Developer",
@@ -19,8 +19,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={ubuntu.className}>
+    <html lang="en" className={GeistSans.className}>
+      <body>
         <main>
           <NavBar />
           {children}
