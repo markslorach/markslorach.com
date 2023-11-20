@@ -31,7 +31,7 @@ export default async function Project({ params }) {
           <p key={index}>{tech}</p>
         ))}
       </div>
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-3 items-center">
         <h2 className="">{project.title}</h2>
         <Link
           href={project.github}
