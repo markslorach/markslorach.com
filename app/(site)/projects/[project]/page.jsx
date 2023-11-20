@@ -33,13 +33,15 @@ export default async function Project({ params }) {
       </div>
       <div className="flex gap-3 items-center">
         <h2 className="">{project.title}</h2>
-        <Link
-          href={project.github}
-          target="_blank"
-          className="flex items-center gap-2"
-        >
-        <GitHubIcon fontSize="medium" className="text-white/70 hover:text-white/90 hover:scale-105 transition-all duration-300 ease-in-out" />
-      </Link>
+        <button className="text-white/70 hover:text-white/90 hover:scale-105 transition-all duration-300 ease-in-out">
+          <Link
+            href={project.github}
+            target="_blank"
+            className="flex items-center gap-2"
+          >
+            <GitHubIcon fontSize="medium" />
+          </Link>
+        </button>
       </div>
 
       <PortableText value={project.content} components={RichTextComponents} />
