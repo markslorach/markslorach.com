@@ -22,18 +22,25 @@ export default async function Project({ params }) {
 
   return (
     <main>
-      <figure className="mb-16">
+      <figure className="mb-4">
         <ImageCarousel images={project.images} />
       </figure>
 
-      <Link
-        href={project.github}
-        target="_blank"
-        className="flex items-center gap-2"
-      >
-        <GitHubIcon fontSize="medium" className="text-white/90" />
+      <div className="flex flex-wrap gap-4 text-white/50 text-xs tracking-wide leading-none font-mono mb-16">
+        {project.techStack.map((tech, index) => (
+          <p key={index}>{tech}</p>
+        ))}
+      </div>
+      <div className="flex gap-4 items-center">
         <h2 className="">{project.title}</h2>
+        <Link
+          href={project.github}
+          target="_blank"
+          className="flex items-center gap-2"
+        >
+        <GitHubIcon fontSize="medium" className="text-white/90" />
       </Link>
+      </div>
 
       <PortableText value={project.content} components={RichTextComponents} />
     </main>

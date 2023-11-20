@@ -11,7 +11,6 @@ export default function NotFound() {
             height={150}
             alt="404 Not Found"
             className="rounded-full"
-            placeholder="blur"
           />
         </figure>
         <h1 className="text-7xl leading-none tracking-wide font-bold text-white/90">
