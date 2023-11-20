@@ -5,14 +5,15 @@ export default function Profile() {
     <>
       <section className="text-white/70 text-base font-light tracking-wide">
         <p className="mb-5">
-          I am a recent graduate of a 16-week software development bootcamp at
+          I recently graduated from a 16-week software development boot camp at
           CodeClan, where I built a solid understanding of programming
-          fundamentals through Python,{" "}
-          <strong className="font-normal text-white/90">JavaScript</strong>, and
-          Java and worked with Test Driven Development,{" "}
+          fundamentals. During the program, I learned Python,{" "}
+          <strong className="font-normal text-white/90">JavaScript</strong> and
+          Java as well as working with Test Driven Development,{" "}
           <strong className="font-normal text-white/90">Frameworks</strong>, and{" "}
           <strong className="font-normal text-white/90">Databases.</strong>
         </p>
+
         <p className="mb-5">
           I was drawn to the visual and system design aspects of building
           user-friendly applications during my studies. The pace of the course
@@ -25,7 +26,7 @@ export default function Profile() {
         </p>
         <p className="mb-5">
           Currently, I am enjoying working with and learning about{" "}
-          <strong className="font-normal text-white/90">Next.js 13</strong>,{" "}
+          <strong className="font-normal text-white/90">Next.js</strong>,{" "}
           <strong className="font-normal text-white/90">Tailwind CSS</strong>,
           and how to incorporate{" "}
           <strong className="font-normal text-white/90">
@@ -39,7 +40,7 @@ export default function Profile() {
           <strong className="font-normal text-white/90">
             freelance videographer and drone operator
           </strong>{" "}
-          for 6 years. In this role, I worked closely with clients to deliver
+          for six years. In this role, I worked closely with clients to deliver
           creative content for brands and businesses all around Europe.
         </p>
         <p className="mb-5">
