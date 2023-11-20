@@ -5,7 +5,7 @@ export default function Profile() {
     <>
       <section className="text-white/70 text-base font-light tracking-wide">
         <p className="mb-5">
-          I recently graduated from a 16-week software development boot camp at
+          I am a recent graduate from a 16-week software development bootcamp at
           CodeClan, where I built a solid understanding of programming
           fundamentals. During the course, I learned Python,{" "}
           <strong className="font-normal text-white/90">JavaScript</strong> and
