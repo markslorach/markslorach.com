@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Ubuntu } from "next/font/google";
 import { GeistSans } from 'geist/font/sans';
 import "./globals.css";
 
@@ -6,9 +6,14 @@ import "./globals.css";
 import NavBar from "./(site)/components/NavBar";
 import Footer from "./(site)/components/Footer";
 
-const inter = Inter({
+// const inter = Inter({
+//   subsets: ["latin"],
+//   // weight: ["300", "400", "500", "700"],
+// });
+
+const ubuntu = Ubuntu({
   subsets: ["latin"],
-  // weight: ["300", "400", "500", "700"],
+  weight: ["300", "400", "500", "700"],
 });
 
 export const metadata = {
@@ -19,7 +24,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html  lang="en" className={inter.className}>
+    <html  lang="en" className={ubuntu.className}>
       <body>
         <main>
           <NavBar />
