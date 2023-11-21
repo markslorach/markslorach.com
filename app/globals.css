@@ -41,7 +41,7 @@ h2 {
 
 /* Hero */
 .hero-title {
-  @apply text-3xl font-semibold tracking-wide mb-16 text-white/90;
+  @apply text-3xl font-bold tracking-wide mb-16 text-white/90;
 }
 
 .hero-span {

@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 import Skeleton from "./components/Skeleton";
 
 export default async function HomeContainer() {
-
+  
   const projects = await getProjects();
 
   return (

@@ -1,6 +1,6 @@
 const Skeleton = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-8">
       <div>
         <h3
           className="h-4 bg-gray-200 rounded-full dark:bg-gray-700"
