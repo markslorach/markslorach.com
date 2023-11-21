@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import Hero from "./components/Hero";
 import ProjectList from "./components/ProjectList";
 import Experience from "./components/Experience";
-import Loading from "@/app/loading";
+import Skeleton from "./components/Skeleton";
 
 export default async function HomeContainer() {
   
@@ -15,7 +15,7 @@ export default async function HomeContainer() {
     <>
       <Hero />
       <h2 className="mb-6">Recent Projects</h2>
-      <Suspense fallback={<Loading/>}>
+      <Suspense fallback={<Skeleton/>}>
       <ProjectList projects={projects.slice(0, 3)} />
       </Suspense>
       <Experience />
