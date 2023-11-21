@@ -4,7 +4,7 @@ import { Suspense } from "react";
 
 // Components
 import ProjectList from "../(home)/components/ProjectList";
-import Skeleton from "../(home)/components/Skeleton";
+import Loading from "@/app/loading";
 
 export default async function Projects() {
   const projects = await getProjects();
@@ -20,7 +20,7 @@ export default async function Projects() {
         </Link>
         .
       </p>
-      <Suspense fallback={<Skeleton />}>
+      <Suspense fallback={<Loading/>}>
         <ProjectList projects={projects} />
       </Suspense>
     </>

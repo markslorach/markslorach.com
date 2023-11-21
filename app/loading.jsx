@@ -1,4 +1,4 @@
-const Skeleton = () => {
+export default function Loading() {
   return (
     <div className="flex flex-col gap-8">
       <div>
@@ -38,7 +38,5 @@ const Skeleton = () => {
         </ul>
       </div>
     </div>
-  );
-};
-
-export default Skeleton;
+  )
+}
