@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { getProjects } from "@/sanity/sanity-utils";
+import { Suspense } from "react";
 
 // Components
 import ProjectList from "../(home)/components/ProjectList";
+import Skeleton from "../(home)/components/Skeleton";
 
 export default async function Projects() {
   const projects = await getProjects();
@@ -18,7 +20,9 @@ export default async function Projects() {
         </Link>
         .
       </p>
-      <ProjectList projects={projects} />
+      <Suspense fallback={<Skeleton />}>
+        <ProjectList projects={projects} />
+      </Suspense>
     </>
   );
 }

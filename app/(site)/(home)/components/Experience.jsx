@@ -14,7 +14,7 @@ export default function Experience() {
           <h3 className="text-white/50 text-sm mb-4 font-light">
             Professional Software Development
           </h3>
-          <p className="font-light text-white/70 mb-4">
+          <p className="font-light text-base text-white/70 mb-4">
           Spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.
           </p>
           <p className="text-white/50 font-light text-sm leading-relaxed">
