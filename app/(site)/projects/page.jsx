@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { getProjects } from "@/sanity/sanity-utils";
-import { Suspense } from "react";
 
 // Components
 import ProjectList from "../(home)/components/ProjectList";
@@ -20,9 +19,7 @@ export default async function Projects() {
         </Link>
         .
       </p>
-      <Suspense fallback={<Skeleton/>}>
-        <ProjectList projects={projects} />
-      </Suspense>
+      <ProjectList projects={projects} />
     </>
   );
 }
