@@ -1,15 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
+import me from "../../../../public/images/me.png"
 
 export default function Hero() {
   return (
     <section>
       <figure className="mb-4">
         <Image
-          src="/images/me.png"
+          src={me}
           width={60}
           height={60}
           alt="Mark Slorach"
+          loading="lazy"
           className="hero-image"
         />
       </figure>
