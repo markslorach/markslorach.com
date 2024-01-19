@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import ProjectList from "./components/ProjectList";
 import Experience from "./components/Experience";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomeContainer() {
   const projects = await getProjects();
 

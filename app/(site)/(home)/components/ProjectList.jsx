@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 export const revalidate = 0;
 
+
 // Data fetch coming from HomePage.jsx
 export default function ProjectList({ projects }) {
 

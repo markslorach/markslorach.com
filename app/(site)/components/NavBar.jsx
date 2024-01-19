@@ -1,6 +1,11 @@
+'use client'
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+usePathname
 
 export default function NavBar() {
+  const pathname = usePathname();
+  
   return (
     <header id="top">
       <nav className="nav">
