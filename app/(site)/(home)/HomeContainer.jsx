@@ -1,5 +1,4 @@
 import { getProjects } from "@/sanity/sanity-utils";
-import { Suspense } from "react";
 
 // Components
 import Hero from "./components/Hero";
