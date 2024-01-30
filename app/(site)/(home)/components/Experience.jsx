@@ -13,10 +13,10 @@ export default function Experience() {
               Web Developer
             </h3>
             <p className="font-light text-base text-white/70">
-              I’m currently volunteering with the Scottish Tech Army, where I’m
-              part of a dynamic team working on a web development project. We’re
-              in the initial stages of planning a website that aims to provide
-              valuable services to the community.
+              I am currently volunteering as a web developer for the Scottish
+              Tech Army, working with a team in the planning stages of creating
+              a website that will offer valuable community services for the
+              client's users.
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Experience() {
               Professional Software Development
             </h3>
             <p className="font-light text-base text-white/70 mb-4">
-              Spent 16 weeks building a solid understanding of software
+              I spent sixteen weeks building a solid understanding of software
               development fundamentals, creating full-stack applications using
               frameworks, databases, RESTful APIs and test-driven development,
               utilising version control and agile methodologies in solo and
