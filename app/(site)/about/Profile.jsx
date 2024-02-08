@@ -8,8 +8,9 @@ export default function Profile() {
           I am a recent graduate from a 16-week software development bootcamp at
           CodeClan, where I built a solid understanding of programming
           fundamentals. During the course, I learned Python,{" "}
-          <strong className="font-normal text-white/90">JavaScript</strong> and
-          <strong className="font-normal text-white/90">Java</strong> as well as working with Test Driven Development,{" "}
+          <strong className="font-normal text-white/90">JavaScript</strong> and{" "}
+          <strong className="font-normal text-white/90">Java</strong> as well as
+          working with Test Driven Development,{" "}
           <strong className="font-normal text-white/90">Frameworks</strong>, and{" "}
           <strong className="font-normal text-white/90">Databases.</strong>
         </p>
