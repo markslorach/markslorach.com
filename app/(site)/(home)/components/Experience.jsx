@@ -13,9 +13,9 @@ export default function Experience() {
               Web Developer
             </h3>
             <p className="font-light text-base text-white/70">
-              I am currently volunteering as a web developer for the Scottish
-              Tech Army, working with a team in the planning stages of creating
-              a website that will offer valuable community services for the
+              Currently volunteering as a web developer for the Scottish Tech
+              Army, working with a team in the planning stages of creating a
+              website that will offer valuable community services for the
               client's users.
             </p>
           </div>
@@ -31,11 +31,11 @@ export default function Experience() {
               Professional Software Development
             </h3>
             <p className="font-light text-base text-white/70 mb-4">
-              I spent sixteen weeks building a solid understanding of software
+              Spent sixteen weeks building a solid understanding of software
               development fundamentals, creating full-stack applications using
-              frameworks, databases, RESTful APIs and test-driven development,
-              utilising version control and agile methodologies in solo and
-              group projects.
+              frameworks, databases, RESTful APIs, test-driven development and
+              object-oriented programming, utilising version control and agile
+              methodologies in solo and group projects.
             </p>
             <p className="text-white/50 font-light text-sm leading-relaxed">
               JavaScript • React • Express.js • PostgreSQL • MongoDB • Java •
