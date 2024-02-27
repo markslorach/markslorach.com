@@ -3,7 +3,6 @@ import { getProjects } from "@/sanity/sanity-utils";
 
 // Components
 import ProjectList from "../(home)/components/ProjectList";
-import Skeleton from "../(home)/components/Skeleton";
 
 export default async function Projects() {
   const projects = await getProjects();
