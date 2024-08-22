@@ -1,5 +1,6 @@
 export const projects = [
   {
+    id: crypto.randomUUID(),
     title: "minilist",
     description: "Minimalistic and distraction free task manager.",
     image: "/images/minilist.png",
@@ -8,6 +9,7 @@ export const projects = [
     slug: "minilist",
   },
   {
+    id: crypto.randomUUID(),
     title: "Country DB",
     description: "A simple country database.",
     image: "/images/countries-db.png",
@@ -16,6 +18,7 @@ export const projects = [
     slug: "countries-db",
   },
   {
+    id: crypto.randomUUID(),
     title: "CodeCrush",
     description: "Quiz application with daily coding challenges.",
     image: "/images/codecrush.png",

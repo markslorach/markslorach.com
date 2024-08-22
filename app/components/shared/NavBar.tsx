@@ -10,7 +10,7 @@ const NavBar = () => {
           <span className="text-blue-400">.</span>
         </h1>
       </Link>
-      <Sun />
+      {/* <Sun /> */}
     </nav>
   );
 };

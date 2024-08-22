@@ -9,7 +9,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
     <Link
       href={project.href}
       target="_blank"
-      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-colors hover:bg-gray-200/60"
+      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-colors duration-300 ease-in-out hover:bg-gray-200/80"
     >
       <AspectRatio
         className="rounded-lg border-2 border-gray-200/20"
@@ -21,8 +21,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
           fill
           priority
           quality={80}
-          placeholder="blur"
-          blurDataURL={project.image}
           className="rounded-lg"
         />
       </AspectRatio>
