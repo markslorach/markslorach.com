@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="antialiased">
+      <body className={nunito.className}>
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <NavBar />
           <div className="flex-grow">{children}</div>

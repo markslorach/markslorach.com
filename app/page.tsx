@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+
 export default function Home() {
   return (
-   <main>
-    <h1>Hello, World!</h1>
-   </main>
+    <main>
+      <Hero />
+      <Projects />
+    </main>
   );
 }
