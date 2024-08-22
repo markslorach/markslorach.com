@@ -3,6 +3,7 @@ import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
+import StickyLinks from "./components/shared/StickyLinks";
 
 const nunito = Nunito_Sans({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={nunito.className}>
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <NavBar />
+          <StickyLinks />
           <div className="flex-grow">{children}</div>
           <Footer />
         </main>

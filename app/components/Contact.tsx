@@ -8,8 +8,8 @@ const Contact = () => {
       <div className="mb-16 space-y-1">
         <Heading>Get in Touch</Heading>
         <p className="text-lg font-light leading-normal text-neutral-800/80">
-          I'm always happy to chat about new projects, opportunities or just to say
-          hello.
+          I'm always happy to chat about new projects, opportunities or just to
+          say hello.
         </p>
       </div>
       <div className="grid grid-cols-2 gap-10 md:grid-cols-3 md:gap-5">
@@ -18,7 +18,12 @@ const Contact = () => {
             <h3 className="mb-1 text-xl font-semibold leading-none text-neutral-800">
               {item.title}
             </h3>
-            <Link href={item.href} className="text-neutral-800/70">
+            <Link
+              href={item.href}
+              target="_blank"
+              aria-label={item.title}
+              className="text-neutral-800/70"
+            >
               {item.content}
             </Link>
           </div>
