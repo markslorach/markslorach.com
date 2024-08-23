@@ -15,7 +15,10 @@ const Footer = () => {
         </Link>
         .
       </span>
-      <Link href="https://github.com/markslorach/markslorach.com.git" target="_blank">
+      <Link
+        href="https://github.com/markslorach/markslorach.com.git"
+        target="_blank"
+      >
         <Github className="h-5 w-5 text-neutral-800/80" />
       </Link>
     </footer>
