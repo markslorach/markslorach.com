@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: crypto.randomUUID(),
-    title: "Country DB",
+    title: "Countries DB",
     description: "Search, discover and learn about countries worldwide.",
     image: "/images/countries-db.png",
     href: "https://countriesdb.vercel.app/",
