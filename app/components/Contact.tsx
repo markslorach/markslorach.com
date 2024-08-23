@@ -8,8 +8,7 @@ const Contact = () => {
       <div className="mb-16 space-y-1">
         <Heading>Get in Touch</Heading>
         <p className="text-lg font-light leading-normal text-neutral-800/80">
-          I'm always happy to chat about new projects, opportunities or just to
-          say hello.
+          I'm always happy to chat so please feel free to get in touch.
         </p>
       </div>
 

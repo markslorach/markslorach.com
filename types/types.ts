@@ -15,5 +15,4 @@ export interface Experience {
   logo: string;
   date: string;
   description: string;
-  bulletPoints: string[];
 }
