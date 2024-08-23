@@ -6,7 +6,7 @@ export const experience = [
     logo: "/images/sta.jpg",
     date: "Feb 2024 - Present",
     description:
-      "Currently volunteering as a web developer for the Scottish Tech Army, working with a team to create a website that will offer valuable community services for the client's users.",
+      "Currently volunteering as a web developer for the Scottish Tech Army, working with a team to create a wordpress website that will offer valuable community services for the client's users.",
   },
   {
     id: crypto.randomUUID(),

@@ -1,41 +1,24 @@
-"use client";
+import { Github } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mt-16 border-t py-12 text-center">
-      <small className="tracking-wide text-gray-400 dark:text-gray-500">
-        Built using{" "}
-        <Link href="https://nextjs.org/" target="_blank" className="font-bold">
-          Next.js
-        </Link>
-        ,{" "}
+    <footer className="mt-24 flex items-center justify-between gap-4 border-t py-12">
+      <span className="text-lg text-neutral-800/80">
+        created by{" "}
         <Link
-          href="https://tailwindcss.com/"
+          className="font-semibold text-blue-400"
+          href="https://www.markslorach.com/"
           target="_blank"
-          className="font-bold"
         >
-          Tailwind
-        </Link>
-        ,{" "}
-        <Link
-          href="https://www.typescriptlang.org/"
-          target="_blank"
-          className="font-bold"
-        >
-          TypeScript
-        </Link>{" "}
-        and{" "}
-        <Link
-          href="https://www.sanity.io/"
-          target="_blank"
-          className="font-bold"
-        >
-          Sanity.io
+          mark slorach
         </Link>
         .
-      </small>
-    </div>
+      </span>
+      <Link href="https://github.com/markslorach/minilist.git" target="_blank">
+        <Github className="h-5 w-5 text-neutral-800/80" />
+      </Link>
+    </footer>
   );
 };
 
