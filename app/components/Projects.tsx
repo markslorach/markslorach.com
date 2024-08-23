@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="mb-16 space-y-1">
         <Heading>Recent Projects</Heading>
         <p className="text-lg font-light leading-normal text-neutral-800/80">
-          For more details on these and other projects, please visit my{" "}
+        For more information, please check out my{" "}
           <Link
             href="https://github.com/markslorach"
             target="_blank"

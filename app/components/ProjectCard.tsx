@@ -1,4 +1,3 @@
-"use client";
 import { Project } from "@/types/types";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import Link from "next/link";
@@ -9,7 +8,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
     <Link
       href={project.href}
       target="_blank"
-      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-colors duration-300 ease-in-out hover:bg-gray-200/80"
+      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-200 ease-in-out hover:bg-gray-200/80 hover:scale-[101.5%]"
     >
       <AspectRatio
         className="rounded-lg border-2 border-gray-200/20"
@@ -18,7 +17,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <Image
           src={project.image}
           alt={`${project.title} preview image`}
-          fill
+          width={960}
+          height={540}
           priority
           quality={80}
           className="rounded-lg"

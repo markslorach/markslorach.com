@@ -23,7 +23,7 @@ const StickyLinks = () => {
           href={link.href}
           target="_blank"
           aria-label={link.title}
-          className="text-gray-400 transition-transform hover:scale-110"
+          className="text-gray-400 transition-transform duration-200 ease-in-out hover:scale-110 hover:text-gray-500/80"
         >
           {link.icon}
         </Link>

@@ -12,10 +12,11 @@ const Contact = () => {
           say hello.
         </p>
       </div>
+
       <div className="grid grid-cols-2 gap-10 md:grid-cols-3 md:gap-5">
         {contact.map((item, idx) => (
           <div key={idx}>
-            <h3 className="mb-1 text-xl font-semibold leading-none text-neutral-800">
+            <h3 className="mb-1.5 text-xl font-semibold leading-none text-neutral-800">
               {item.title}
             </h3>
             <Link

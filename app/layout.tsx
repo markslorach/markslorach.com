@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Nunito_Sans } from "next/font/google";
+import { Nunito_Sans as FontSans } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
 import StickyLinks from "./components/shared/StickyLinks";
+import { cn } from "@/lib/utils";
 
-const nunito = Nunito_Sans({ subsets: ["latin"] });
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="antialiased">
-      <body className={nunito.className}>
+      <body
+        className={cn(
+          "bg-background min-h-screen font-sans antialiased",
+          fontSans.variable,
+        )}
+      >
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <NavBar />
           <StickyLinks />

@@ -20,7 +20,7 @@ const Hero = () => {
           A full-stack software developer based in Scotland.
         </span>
       </div>
-      <p className="text-lg font-light leading-normal text-neutral-800-700 md:text-xl">
+      <p className="text-lg font-light  leading-normal text-neutral-800 md:text-xl">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel
         dui elementum, pretium quam sed, semper leo. Cras fringilla quam in
         tellus vulputate, laoreet malesuada ex dictum.

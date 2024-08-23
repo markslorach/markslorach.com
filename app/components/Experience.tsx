@@ -11,6 +11,7 @@ const Experience = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
+
       <div>
         {experience.map((role) => (
           <ExperienceCard key={role.id} role={role} />
