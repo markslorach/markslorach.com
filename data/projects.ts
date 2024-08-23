@@ -1,23 +1,23 @@
 export const projects = [
   {
     id: crypto.randomUUID(),
-    title: "minilist",
-    description: "Minimalistic and distraction free task manager.",
-    image: "/images/minilist.png",
-    href: "https://minilist.vercel.app",
-    github: "https://github.com/markslorach/minilist.git",
-    slug: "minilist",
-    aria: "Link to minilist project",
-  },
-  {
-    id: crypto.randomUUID(),
     title: "Country DB",
     description: "Search, discover and learn about countries worldwide.",
     image: "/images/countries-db.png",
     href: "https://countriesdb.vercel.app/",
     github: "https://github.com/markslorach/countries-db.git",
     slug: "countries-db",
-    aria: "Link to Countries DB project",
+    aria: "Link to deployed Countries DB project",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "minilist",
+    description: "Minimalistic and distraction free task manager.",
+    image: "/images/minilist.png",
+    href: "https://minilist.vercel.app",
+    github: "https://github.com/markslorach/minilist.git",
+    slug: "minilist",
+    aria: "Link to deployed minilist project",
   },
   {
     id: crypto.randomUUID(),
@@ -27,6 +27,6 @@ export const projects = [
     href: "https://codecrushquiz.vercel.app/",
     github: "https://github.com/markslorach/codecrush.git",
     slug: "codecrush",
-    aria: "Link to CodeCrush project",
+    aria: "Link to deployed CodeCrush project",
   },
 ];
