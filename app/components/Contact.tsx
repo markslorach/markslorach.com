@@ -7,10 +7,18 @@ const Contact = () => {
     <section>
       <div className="mb-16 space-y-1">
         <Heading>Get in Touch</Heading>
-        <p className="text-lg font-light text- md:text-pretty leading-normal text-neutral-800/80">
-          Feel free to get in touch or connect with me on LinkedIn. I'm always
-          happy to chat code, answer any questions about my projects or explore
-          potential opportunities.
+        <p className="text- text-lg font-light leading-normal text-neutral-800/80 md:text-pretty">
+          Feel free to get in touch or connect with me on{" "}
+          <Link
+            href="https://github.com/markslorach"
+            target="_blank"
+            aria-label="Mark Slorach's LinkedIn"
+            className="font-semibold text-blue-400 transition-colors hover:text-blue-500"
+          >
+            LinkedIn
+          </Link>
+          . I'm always happy to chat code, answer any questions about my
+          projects or explore potential opportunities.
         </p>
       </div>
 
