@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="mb-10 space-y-1">
         <Heading>Experience</Heading>
         <p className="text-lg font-light leading-normal text-neutral-800/80">
-          My journey in software development so far.
+          My journey in the world of software development so far.
         </p>
       </div>
 
