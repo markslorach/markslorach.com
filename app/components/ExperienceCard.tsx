@@ -17,7 +17,7 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
           <h4 className="mb-1.5 text-lg font-semibold leading-none text-neutral-800">
             {role.company}
           </h4>
-          <span className="text-sm hidden md:inline leading-none text-neutral-800/60">
+          <span className="hidden text-sm leading-none text-neutral-800/60 md:inline">
             {role.date}
           </span>
         </div>
