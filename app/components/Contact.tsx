@@ -7,8 +7,10 @@ const Contact = () => {
     <section>
       <div className="mb-16 space-y-1">
         <Heading>Get in Touch</Heading>
-        <p className="text-lg font-light leading-normal text-neutral-800/80">
-          I'm always happy to chat so please feel free to get in touch.
+        <p className="text-lg font-light text- md:text-pretty leading-normal text-neutral-800/80">
+          Feel free to get in touch or connect with me on LinkedIn. I'm always
+          happy to chat code, answer any questions about my projects or explore
+          potential opportunities.
         </p>
       </div>
 
@@ -22,7 +24,7 @@ const Contact = () => {
               href={item.href}
               target="_blank"
               aria-label={item.aria}
-              className="text-lg text-neutral-800/60 hover:text-neutral-800/80 transition-colors"
+              className="text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
             >
               {item.content}
             </Link>
