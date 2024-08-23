@@ -5,11 +5,12 @@ import NavBar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
 import StickyLinks from "./components/shared/StickyLinks";
 import { cn } from "@/lib/utils";
+import GridBackground from "../components/GridBackground";
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: 'swap',
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
+        <GridBackground />
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <NavBar />
           <StickyLinks />
