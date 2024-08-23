@@ -8,7 +8,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
     <Link
       href={project.href}
       target="_blank"
-      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-200 ease-in-out hover:bg-gray-200/80 hover:scale-[101.5%]"
+      aria-label={project.aria}
+      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-200 ease-in-out hover:scale-[101.5%] hover:bg-gray-200/80"
     >
       <AspectRatio
         className="rounded-lg border-2 border-gray-200/20"

@@ -6,6 +6,7 @@ export interface Project {
   href: string;
   github: string;
   technologies?: string[];
+  aria: string;
 }
 
 export interface Experience {

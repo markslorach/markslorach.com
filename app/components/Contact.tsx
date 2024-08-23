@@ -21,7 +21,7 @@ const Contact = () => {
             <Link
               href={item.href}
               target="_blank"
-              aria-label={item.title}
+              aria-label={item.aria}
               className="text-lg text-neutral-800/60 hover:text-neutral-800/80 transition-colors"
             >
               {item.content}

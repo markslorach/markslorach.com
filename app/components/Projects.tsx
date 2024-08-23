@@ -13,6 +13,7 @@ const Projects = () => {
           <Link
             href="https://github.com/markslorach"
             target="_blank"
+            aria-label="Mark Slorach's Github"
             className="font-semibold text-blue-400 transition-colors hover:text-blue-500"
           >
             Github
