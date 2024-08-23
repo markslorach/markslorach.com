@@ -1,19 +1,19 @@
 export interface Project {
   id: string;
+  image: string;
   title: string;
   description: string;
-  image: string;
+  technologies?: string[];
   href: string;
   github: string;
-  technologies?: string[];
   aria: string;
 }
 
 export interface Experience {
   id: string;
+  logo: string;
   title: string;
   company: string;
-  logo: string;
   date: string;
   description: string;
 }
