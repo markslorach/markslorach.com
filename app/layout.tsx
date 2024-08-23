@@ -5,7 +5,6 @@ import NavBar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
 import StickyLinks from "./components/shared/StickyLinks";
 import { cn } from "@/lib/utils";
-import GridBackground from "../components/GridBackground";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -27,11 +26,10 @@ export default function RootLayout({
     <html lang="en" className="antialiased">
       <body
         className={cn(
-          "bg-background min-h-screen font-sans antialiased",
+          "bg-background min-h-dvh font-sans antialiased",
           fontSans.variable,
         )}
       >
-        <GridBackground />
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <NavBar />
           <StickyLinks />
