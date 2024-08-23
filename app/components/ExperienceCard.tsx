@@ -13,9 +13,14 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
       />
 
       <div className="flex w-full flex-col">
-        <h4 className="mb-1.5 text-lg font-semibold leading-none text-neutral-800">
-          {role.company}
-        </h4>
+        <div className="flex justify-between">
+          <h4 className="mb-1.5 text-lg font-semibold leading-none text-neutral-800">
+            {role.company}
+          </h4>
+          <span className="text-sm hidden md:inline leading-none text-neutral-800/60">
+            {role.date}
+          </span>
+        </div>
         <span className="mb-4 text-neutral-800/60">{role.title}</span>
         <p className="text-balance text-neutral-800/80">{role.description}</p>
       </div>
