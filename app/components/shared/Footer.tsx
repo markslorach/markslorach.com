@@ -7,7 +7,7 @@ const Footer = () => {
       <span className="text-lg text-neutral-800/80">
         created by{" "}
         <Link
-          className="font-semibold text-blue-400"
+          className="font-semibold text-blue-400 transition-colors hover:text-blue-500"
           href="https://linkedin.com/in/markslorach"
           target="_blank"
         >
