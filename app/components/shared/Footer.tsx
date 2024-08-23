@@ -8,14 +8,14 @@ const Footer = () => {
         created by{" "}
         <Link
           className="font-semibold text-blue-400"
-          href="https://www.markslorach.com/"
+          href="https://linkedin.com/in/markslorach"
           target="_blank"
         >
           mark slorach
         </Link>
         .
       </span>
-      <Link href="https://github.com/markslorach/minilist.git" target="_blank">
+      <Link href="https://github.com/markslorach/markslorach.com.git" target="_blank">
         <Github className="h-5 w-5 text-neutral-800/80" />
       </Link>
     </footer>
