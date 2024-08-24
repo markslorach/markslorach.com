@@ -8,6 +8,8 @@ export default function NotFound() {
         width={300}
         height={300}
         alt="404 image"
+        priority
+        quality={80}
         className="h-28 w-28 rounded-full"
       />
     </div>
