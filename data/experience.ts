@@ -15,6 +15,6 @@ export const experience = [
     logo: "/images/codeclan.jpg",
     date: "May - Sept '24",
     description:
-      "I spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack web applications using frameworks, databases, RESTful APIs, and test-driven development, utilising version control and agile methodologies in solo and group projects.",
+      "I spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack web applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.",
   },
 ];
