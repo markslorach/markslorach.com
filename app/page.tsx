@@ -1,4 +1,4 @@
-import GridBackground from "@/app/components/shared/GridBackground";
+import GridBackground from "@/app/components/ui/GridBackground";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
