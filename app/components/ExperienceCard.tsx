@@ -23,6 +23,9 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
         </div>
         <span className="mb-4 text-neutral-800/60">{role.title}</span>
         <p className="text-balance text-neutral-800/80">{role.description}</p>
+        <span className="text-sm leading-none text-neutral-800/60 md:hidden mt-4">
+          {role.date}
+        </span>
       </div>
     </div>
   );
