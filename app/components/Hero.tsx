@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="pb-32">
+    <section className="pb-16">
       <Image
         src="/images/avatar.png"
         alt="Avatar"
