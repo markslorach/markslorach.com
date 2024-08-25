@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="pb-16">
+    <section className="pb-16 border-b md:border-none">
       <Image
         src="/images/avatar.png"
         alt="Avatar"
@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className="text-4xl font-semibold text-neutral-800">
           Hello! I'm <span className="text-blue-400">Mark</span>.
         </h1>
-        <span className="block text-2xl font-light text-neutral-800/60">
+        <span className="text-2xl font-light text-neutral-800/60">
           A full-stack software developer based in Scotland.
         </span>
       </div>
