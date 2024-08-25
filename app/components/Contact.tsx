@@ -5,7 +5,7 @@ import { contact } from "@/data/contact";
 const Contact = () => {
   return (
     <section>
-      <div className="mb-16 space-y-1">
+      <div className="mb-16 space-y-2">
         <Heading>Get in Touch</Heading>
         <p className="text- text-lg font-light leading-normal text-neutral-800/80 md:text-pretty">
           Feel free to get in touch or connect with me on{" "}

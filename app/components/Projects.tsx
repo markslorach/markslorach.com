@@ -6,7 +6,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section className="mb-24 mt-16">
-      <div className="mb-16 space-y-1">
+      <div className="mb-16 space-y-2">
         <Heading>Recent Projects</Heading>
         <p className="text-lg font-light leading-normal text-neutral-800/80">
           Find more information about all my projects on{" "}
