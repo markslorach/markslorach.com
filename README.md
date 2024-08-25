@@ -11,4 +11,4 @@ Source code for my [personal website](https://www.markslorach.com/).
 Mark Slorach - hello@markslorach.com
 
 ## Screenshots
-![SCR-20240824-bbzl](https://github.com/user-attachments/assets/2172aa35-fc3c-4185-9595-2137e264b4b4)
+![website](https://github.com/user-attachments/assets/f5a5920d-9077-4dff-9448-56f50d76cd1e)
