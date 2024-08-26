@@ -7,6 +7,7 @@ export const experience = [
     date: "Feb '24 - Present",
     description:
       "I'm currently volunteering as a web developer for the Scottish Tech Army, working with a team to create a wordpress website that will offer valuable community services for their clients users.",
+    technologies: [],
   },
   {
     id: crypto.randomUUID(),
@@ -16,5 +17,17 @@ export const experience = [
     date: "May - Sept '24",
     description:
       "I spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack web applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.",
+    technologies: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "MongoDB",
+      "Java",
+      "Spring",
+      "Python",
+      "Flask",
+    ],
   },
 ];

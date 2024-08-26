@@ -1,3 +1,4 @@
+import { Badge } from "@/components/ui/badge";
 import { Experience } from "@/types/types";
 import Image from "next/image";
 
@@ -25,6 +26,20 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
         <span className="mb-4 text-neutral-800/60">{role.title}</span>
 
         <p className="text-balance text-neutral-800/80">{role.description}</p>
+
+        {role.technologies.length > 0 && (
+          <div className="mt-4 hidden flex-wrap gap-2.5 md:flex">
+            {role.technologies.map((tech, idx) => (
+              <Badge
+                key={idx}
+                variant="secondary"
+                className="bg-gray-200/50 text-neutral-800/80 cursor-default"
+              >
+                {tech}
+              </Badge>
+            ))}
+          </div>
+        )}
 
         <span className="mt-4 text-sm leading-none text-neutral-800/60 md:hidden">
           {role.date}
