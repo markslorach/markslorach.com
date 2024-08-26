@@ -6,7 +6,7 @@ export const experience = [
     logo: "/images/sta.jpg",
     date: "Feb '24 - Present",
     description:
-      "I'm currently volunteering as a web developer for the Scottish Tech Army, working with a team to create a wordpress website that will offer valuable community services for their clients users.",
+      "I'm currently volunteering as a web developer with the Scottish Tech Army, collaborating with a user researcher and designer to build an accessible WordPress website that will provide valuable community services.",
     technologies: [],
   },
   {

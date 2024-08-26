@@ -33,7 +33,7 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
               <Badge
                 key={idx}
                 variant="secondary"
-                className="bg-gray-200/50 text-neutral-800/80 cursor-default"
+                className="cursor-default bg-gray-200/50 text-neutral-800/80"
               >
                 {tech}
               </Badge>
