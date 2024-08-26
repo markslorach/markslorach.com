@@ -28,7 +28,7 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
         <p className="text-balance text-neutral-800/80">{role.description}</p>
 
         {role.technologies.length > 0 && (
-          <div className="mt-4 hidden flex-wrap gap-2.5 md:flex">
+          <div className="mt-5 hidden flex-wrap gap-2.5 md:flex">
             {role.technologies.map((tech, idx) => (
               <Badge
                 key={idx}
@@ -41,7 +41,7 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
           </div>
         )}
 
-        <span className="mt-4 text-sm leading-none text-neutral-800/60 md:hidden">
+        <span className="mt-5 text-sm leading-none text-neutral-800/60 md:hidden">
           {role.date}
         </span>
       </div>
