@@ -13,7 +13,7 @@ export const projects = [
     id: crypto.randomUUID(),
     title: "minilist",
     description: "Minimalistic and distraction free task manager.",
-    image: "/images/minilist.png",
+    image: "/images/minilist_light.png",
     href: "https://minilist.vercel.app",
     github: "https://github.com/markslorach/minilist.git",
     slug: "minilist",
