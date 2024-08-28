@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="border-b pb-16 md:border-none">
+    <section className="border-b pb-16">
       <Image
         src="/images/avatar.png"
         alt="Avatar"
