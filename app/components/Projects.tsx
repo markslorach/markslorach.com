@@ -30,12 +30,14 @@ const Projects = () => {
         </p>
       </div>
 
+      {/* Project Cards */}
       <div className="grid grid-cols-1 gap-5 md:-ml-[5%] md:w-[110%] md:grid-cols-2 lg:-ml-[20%] lg:hidden lg:w-[140%]">
         {projects
           .map((project) => <ProjectCard key={project.id} project={project} />)
           .slice(0, 4)}
       </div>
 
+      {/* Project Cards Carousel */}
       <div className="hidden lg:-ml-[20%] lg:block lg:w-[140%]">
         <Carousel
           opts={{

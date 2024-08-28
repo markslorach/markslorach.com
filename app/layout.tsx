@@ -25,10 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn(
-          "bg-background min-h-dvh font-sans antialiased",
-          fontSans.variable,
-        )}
+        className={cn("bg-gray-50 font-sans antialiased", fontSans.variable)}
       >
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <NavBar />
