@@ -12,7 +12,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       className="block space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-300 ease-in-out hover:bg-gray-200/60"
     >
       <AspectRatio
-        className="rounded-lg border-2 border-gray-200/20"
+        className="rounded-lg"
         ratio={16 / 9}
       >
         <Image
@@ -22,7 +22,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           height={540}
           priority
           quality={80}
-          className="rounded-lg"
+          className="rounded-lg border-2 border-gray-200/20"
         />
       </AspectRatio>
 
