@@ -9,7 +9,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       href={project.href}
       target="_blank"
       aria-label={project.aria}
-      className="space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-500 ease-in-out hover:-translate-y-1 hover:bg-gray-200/80"
+      className="block space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-300 ease-in-out hover:bg-gray-200/60"
     >
       <AspectRatio
         className="rounded-lg border-2 border-gray-200/20"

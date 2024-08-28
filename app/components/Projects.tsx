@@ -3,9 +3,18 @@ import ProjectCard from "./ProjectCard";
 import Heading from "./shared/Heading";
 import Link from "next/link";
 
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 const Projects = () => {
   return (
-    <section className="mb-24 mt-16">
+    <section className="mb-24 mt-16 lg:mb-20">
       <div className="mb-16 space-y-2">
         <Heading>Recent Projects</Heading>
 
@@ -23,10 +32,33 @@ const Projects = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-5 md:-ml-[5%] md:w-[110%] md:grid-cols-2 lg:-ml-[20%] lg:w-[140%]">
+      <div className="grid grid-cols-1 gap-5 md:-ml-[5%] md:w-[110%] md:grid-cols-2 lg:-ml-[20%] lg:hidden lg:w-[140%]">
         {projects
           .map((project) => <ProjectCard key={project.id} project={project} />)
           .slice(0, 4)}
+      </div>
+
+      <div className="hidden lg:-ml-[20%] lg:block lg:w-[140%]">
+        <Carousel
+          opts={{
+            align: "start",
+          }}
+        >
+          <CarouselContent>
+            {projects
+              .map((project) => (
+                <CarouselItem
+                  key={project.id}
+                  className="pb-4 md:basis-1/2 lg:basis-1/2"
+                >
+                  <ProjectCard project={project} />
+                </CarouselItem>
+              ))
+              .slice(0, 4)}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       </div>
     </section>
   );
