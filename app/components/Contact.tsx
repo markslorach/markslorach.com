@@ -11,7 +11,7 @@ const Contact = () => {
         <p className="text- text-lg font-light leading-normal text-neutral-800/80 md:text-pretty">
           Feel free to get in touch or connect with me on{" "}
           <Link
-            href="https://github.com/markslorach"
+            href="https://www.linkedin.com/in/markslorach/"
             target="_blank"
             aria-label="Mark Slorach's LinkedIn"
             className="font-semibold text-blue-400 transition-colors hover:text-blue-500"
