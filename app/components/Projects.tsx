@@ -2,8 +2,6 @@ import { projects } from "@/data/projects";
 import ProjectCard from "./ProjectCard";
 import Heading from "./shared/Heading";
 import Link from "next/link";
-
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
