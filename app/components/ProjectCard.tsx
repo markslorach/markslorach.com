@@ -6,15 +6,12 @@ import Image from "next/image";
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <Link
-      href={project.href}
+      href={project.href ? project.href : project.github}
       target="_blank"
       aria-label={project.aria}
       className="block space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-300 ease-in-out hover:bg-gray-200/60"
     >
-      <AspectRatio
-        className="rounded-lg"
-        ratio={16 / 9}
-      >
+      <AspectRatio className="rounded-lg" ratio={16 / 9}>
         <Image
           src={project.image}
           alt={`${project.title} preview image`}

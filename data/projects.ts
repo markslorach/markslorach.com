@@ -24,7 +24,7 @@ export const projects = [
     title: "CodeCrush",
     description: "Quiz application with daily coding challenges.",
     image: "/images/codecrush.png",
-    href: "https://codecrushquiz.vercel.app/",
+    // href: "https://codecrushquiz.vercel.app/",
     github: "https://github.com/markslorach/codecrush.git",
     slug: "codecrush",
     aria: "Link to deployed CodeCrush project",
