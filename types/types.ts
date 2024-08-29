@@ -4,7 +4,7 @@ export interface Project {
   title: string;
   description: string;
   technologies?: string[];
-  href?: string;
+  href: string | null;
   github: string;
   aria: string;
 }
