@@ -6,6 +6,7 @@ Source code for my [personal website](https://www.markslorach.com/).
 - Next.js
 - TypeScript
 - Tailwind
+- Shadcn/ui
 
 ## Contact
 Mark Slorach - hello@markslorach.com
