@@ -38,7 +38,7 @@ const Hero = () => {
             href={link.href}
             target="_blank"
             aria-label={`Link to Mark Slorach's ${link.title} profile`}
-            className="text-gray-400 transition-transform duration-200 ease-in-out hover:scale-110 hover:text-gray-500/80"
+            className="text-gray-400"
           >
             {link.icon}
           </Link>
