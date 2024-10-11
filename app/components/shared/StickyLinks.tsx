@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const stickyLinks = [
+export const socialLinks = [
   {
     title: "Github",
     href: "https://github.com/markslorach",
@@ -17,7 +17,7 @@ const stickyLinks = [
 const StickyLinks = () => {
   return (
     <div className="fixed left-0 hidden min-h-dvh flex-col items-center justify-center gap-3 p-4 lg:flex">
-      {stickyLinks.map((link, idx) => (
+      {socialLinks.map((link, idx) => (
         <Link
           key={idx}
           href={link.href}

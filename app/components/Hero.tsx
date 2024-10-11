@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { socialLinks } from "./shared/StickyLinks";
 
 const Hero = () => {
   return (
@@ -28,6 +30,20 @@ const Hero = () => {
         bootcamp following a career as a freelance videographer. I enjoy all
         things code, especially working with React and the JavaScript ecosystem.
       </p>
+
+      <div className="flex mt-6 space-x-3 lg:hidden">
+        {socialLinks.map((link, idx) => (
+            <Link
+            key={idx}
+            href={link.href}
+            target="_blank"
+            aria-label={`Link to Mark Slorach's ${link.title} profile`}
+            className="text-gray-400 transition-transform duration-200 ease-in-out hover:scale-110 hover:text-gray-500/80"
+          >
+            {link.icon}
+          </Link>
+        ))}
+      </div>
     </section>
   );
 };
