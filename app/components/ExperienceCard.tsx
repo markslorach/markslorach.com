@@ -25,7 +25,7 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
 
         <span className="mb-4 text-neutral-800/60">{role.title}</span>
 
-        <p className="text-balance text-neutral-800/80">{role.description}</p>
+        <p className="text-balance text-neutral-600">{role.description}</p>
 
         {role.technologies.length > 0 && (
           <div className="mt-5 hidden flex-wrap gap-2.5 md:flex">

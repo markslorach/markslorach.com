@@ -24,7 +24,7 @@ const Hero = () => {
         </span>
       </div>
 
-      <p className="text-balance text-lg font-light text-neutral-800 md:text-xl">
+      <p className="text-balance text-lg font-light text-neutral-600 md:text-xl">
         I'm a full-stack developer with a keen interest in front-end
         development. I recently graduated from CodeClan's software development
         bootcamp following a career as a freelance videographer. I enjoy all

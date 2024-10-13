@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="mb-16 space-y-2">
         <Heading>Get in Touch</Heading>
 
-        <p className="text- text-lg font-light leading-normal text-neutral-800/80 md:text-pretty">
+        <p className="text- text-lg font-light leading-normal text-neutral-600 md:text-pretty">
           Feel free to get in touch or connect with me on{" "}
           <Link
             href="https://www.linkedin.com/in/markslorach/"

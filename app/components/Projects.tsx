@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="mb-16 space-y-2">
         <Heading>Recent Projects</Heading>
 
-        <p className="text-lg font-light leading-normal text-neutral-800/80">
+        <p className="text-lg font-light leading-normal text-neutral-600">
           Find more information about all my projects on{" "}
           <Link
             href="https://github.com/markslorach"

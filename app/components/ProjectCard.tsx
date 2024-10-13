@@ -27,7 +27,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           {project.title}
         </h3>
 
-        <span className="block text-neutral-800/80">{project.description}</span>
+        <span className="block text-neutral-600">{project.description}</span>
       </div>
     </Link>
   );
