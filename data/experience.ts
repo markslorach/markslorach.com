@@ -14,7 +14,7 @@ export const experience = [
     title: "Professional Software Development Bootcamp",
     company: "CodeClan",
     logo: "/images/codeclan.jpg",
-    date: "May - Sept '24",
+    date: "May - Sept '23",
     description:
       "I spent 16 weeks building a solid understanding of software development fundamentals, creating full-stack web applications using frameworks, databases, RESTful APIs and test-driven development, utilising version control and agile methodologies in solo and group projects.",
     technologies: [
