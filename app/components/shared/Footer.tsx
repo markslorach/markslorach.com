@@ -6,7 +6,26 @@ const Footer = () => {
     <footer className="mt-24 flex items-center justify-between gap-4 border-t py-8">
       <span className="text-sm text-neutral-800/60">
         Made with{" "}
-        <span role="img" aria-label="heart">❤️</span> using Next.js and Shadcn/ui.
+        <span role="img" aria-label="heart">
+          ❤️
+        </span>{" "}
+        using{" "}
+        <Link
+          href="https://nextjs.org"
+          target="_blank"
+          className="text-blue-400 underline underline-offset-2"
+        >
+          Next.js
+        </Link>{" "}
+        and{" "}
+        <Link
+          href="https://ui.shadcn.com/"
+          target="_blank"
+          className="text-blue-400 underline underline-offset-2"
+        >
+          Shadcn/ui
+        </Link>
+        .
       </span>
       <Link
         href="https://github.com/markslorach/markslorach.com.git"
