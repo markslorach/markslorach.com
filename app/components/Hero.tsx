@@ -19,7 +19,7 @@ const Hero = () => {
         <h1 className="text-4xl font-semibold text-neutral-800">
           Hello! I'm <span className="text-blue-400">Mark</span>.
         </h1>
-        <span className="text-2xl font-light text-neutral-800/60">
+        <span className="text-xl sm:text-2xl font-light text-neutral-800/60">
           A full-stack software developer based in Scotland.
         </span>
       </div>
