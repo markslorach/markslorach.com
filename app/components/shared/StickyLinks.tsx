@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBluesky } from "react-icons/fa6";
 
 export const socialLinks = [
   {
@@ -11,6 +12,11 @@ export const socialLinks = [
     title: "LinkedIn",
     href: "https://linkedin.com/in/markslorach",
     icon: <FaLinkedin className="h-7 w-7" />,
+  },
+  {
+    title: "Bluesky",
+    href: "https://bsky.app/profile/markslorach.com",
+    icon: <FaBluesky className="h-7 w-7" />,
   },
 ];
 
