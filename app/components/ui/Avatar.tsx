@@ -11,6 +11,7 @@ const Avatar = () => {
       className="relative w-fit"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
+      onClick={() => setIsHovering(!isHovering)}
     >
       <Image
         src="/images/avatar.png"
