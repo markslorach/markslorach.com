@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="mt-24 flex items-center justify-between gap-4 border-t py-8">
       <span className="text-sm text-neutral-800/60">
-        Made with{" "}
+        Built with{" "}
         <span role="img" aria-label="heart">
           ❤️
         </span>{" "}
