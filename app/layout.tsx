@@ -5,6 +5,7 @@ import NavBar from "./components/shared/NavBar";
 import Footer from "./components/shared/Footer";
 import StickyLinks from "./components/shared/StickyLinks";
 import { cn } from "@/lib/utils";
+import { GridPatternLinearGradient } from "./components/ui/GridPatternLinearGradient";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={cn("bg-gray-50 font-sans antialiased", fontSans.variable)}
       >
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
+          <GridPatternLinearGradient />
           <NavBar />
           <StickyLinks />
           <div className="flex-grow">{children}</div>

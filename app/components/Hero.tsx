@@ -19,7 +19,8 @@ const Hero = () => {
         <h1 className="text-4xl font-semibold text-neutral-800">
           Hello! I'm <span className="text-blue-400">Mark</span>.
         </h1>
-        <span className="text-xl sm:text-2xl font-light text-neutral-800/60">
+
+        <span className="text-xl font-light text-neutral-800/60 sm:text-2xl">
           A full-stack software developer based in Scotland.
         </span>
       </div>
@@ -31,9 +32,9 @@ const Hero = () => {
         things code, especially working with React and the JavaScript ecosystem.
       </p>
 
-      <div className="flex mt-6 space-x-3 lg:hidden">
+      <div className="mt-6 flex space-x-3 lg:hidden">
         {socialLinks.map((link, idx) => (
-            <Link
+          <Link
             key={idx}
             href={link.href}
             target="_blank"
