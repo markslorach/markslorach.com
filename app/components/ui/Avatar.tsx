@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
-const AvatarHover = () => {
+const Avatar = () => {
   const [isHovering, setIsHovering] = useState(false);
 
   return (
@@ -18,9 +19,13 @@ const AvatarHover = () => {
         height={68}
         quality={80}
         priority
-        className={`-ml-1.5 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out ${
-          isHovering ? "opacity-0" : "opacity-100"
-        }`}
+        className={cn(
+          "-ml-1.5 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
+          {
+            "opacity-0": isHovering,
+            "opacity-100": !isHovering,
+          },
+        )}
       />
       <Image
         src="/images/waving.png"
@@ -28,12 +33,16 @@ const AvatarHover = () => {
         width={68}
         height={68}
         quality={80}
-        className={`absolute left-0 top-0 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out ${
-          isHovering ? "opacity-100" : "opacity-0"
-        }`}
+        className={cn(
+          "absolute left-0 top-0 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
+          {
+            "opacity-100": isHovering,
+            "opacity-0": !isHovering,
+          },
+        )}
       />
     </div>
   );
 };
 
-export default AvatarHover;
+export default Avatar;

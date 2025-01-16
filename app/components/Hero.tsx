@@ -1,15 +1,14 @@
-import Image from "next/image";
 import Link from "next/link";
 import { socialLinks } from "./shared/StickyLinks";
-import AvatarHover from "./ui/AvatarHover";
+import Avatar from "./ui/Avatar";
 
 const Hero = () => {
   return (
     <section className="border-b pb-16">
-      <AvatarHover />
+      <Avatar />
 
       <div className="mb-6">
-        <h1 className="mb-1 text-[34.5px] font-semibold text-neutral-800 leading-none">
+        <h1 className="mb-1 text-[34.5px] font-semibold leading-none text-neutral-800">
           Hello! I'm <span className="text-blue-400">Mark</span>.
         </h1>
 
