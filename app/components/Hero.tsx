@@ -8,19 +8,19 @@ const Hero = () => {
       <Image
         src="/images/avatar.png"
         alt="Avatar"
-        width={69}
-        height={69}
+        width={68}
+        height={68}
         quality={80}
         priority
         className="-ml-1.5 mb-3 rounded-2xl"
       />
 
       <div className="mb-6 space-y-1">
-        <h1 className="text-4xl font-semibold text-neutral-800">
+        <h1 className="text-4xl font-semibold text-neutral-800 mb-1">
           Hello! I'm <span className="text-blue-400">Mark</span>.
         </h1>
 
-        <span className="text-xl font-light text-neutral-800/60 sm:text-2xl">
+        <span className="text-xl font-light text-neutral-800/60 sm:text-[23px]">
           A full-stack software developer based in Scotland.
         </span>
       </div>
