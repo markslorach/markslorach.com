@@ -46,6 +46,7 @@ export default function RootLayout({
                 secondary: "#F9FAFB",
               },
               style: {
+                borderRadius: "8px",
                 fontWeight: 500,
                 fontSize: "16px",
                 color: "#525252",
