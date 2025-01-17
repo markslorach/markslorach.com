@@ -7,7 +7,7 @@ const Experience = () => {
     <section className="mb-16">
       <div className="mb-10 space-y-2">
         <Heading>Experience</Heading>
-        
+
         <p className="text-lg font-light leading-normal text-neutral-600">
           My journey in the world of software development so far.
         </p>
