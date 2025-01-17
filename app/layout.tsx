@@ -48,7 +48,7 @@ export default function RootLayout({
               style: {
                 fontWeight: 500,
                 fontSize: "16px",
-                color: "#7A7B7B",
+                color: "#525252",
                 fontFamily: "var(--font-sans)",
               },
             },
