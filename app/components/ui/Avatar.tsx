@@ -8,7 +8,7 @@ const Avatar = () => {
 
   return (
     <div
-      className="relative w-fit"
+      className="relative w-fit cursor-pointer"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
       onClick={() => setIsHovering(!isHovering)}
