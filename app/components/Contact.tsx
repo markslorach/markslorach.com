@@ -3,6 +3,7 @@ import Link from "next/link";
 import Heading from "./shared/Heading";
 import { contact } from "@/data/contact";
 import { Copy } from "lucide-react";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   return (
@@ -35,6 +36,7 @@ const Contact = () => {
               <button
                 onClick={() => {
                   navigator.clipboard.writeText(item.content);
+                  toast.success("Copied to clipboard!", {});
                 }}
                 className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
               >

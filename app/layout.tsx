@@ -6,6 +6,7 @@ import Footer from "./components/shared/Footer";
 import StickyLinks from "./components/shared/StickyLinks";
 import { cn } from "@/lib/utils";
 import { GridPatternLinearGradient } from "./components/ui/GridPatternLinearGradient";
+import { Toaster } from "react-hot-toast";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -35,6 +36,24 @@ export default function RootLayout({
           <div className="flex-grow">{children}</div>
           <Footer />
         </main>
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            success: {
+              duration: 3500,
+              iconTheme: {
+                primary: "#60A5FA",
+                secondary: "#F9FAFB",
+              },
+              style: {
+                fontWeight: 500,
+                fontSize: "16px",
+                color: "#7A7B7B",
+                fontFamily: "var(--font-sans)",
+              },
+            },
+          }}
+        />
       </body>
     </html>
   );
