@@ -19,11 +19,11 @@ const Footer = () => {
         </Link>{" "}
         and{" "}
         <Link
-          href="https://ui.shadcn.com/"
+          href="https://www.typescriptlang.org/"
           target="_blank"
           className="text-blue-400 underline underline-offset-2"
         >
-          Shadcn/ui
+          TypeScript
         </Link>
         .
       </span>
