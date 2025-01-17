@@ -1,6 +1,9 @@
+"use client";
 import Link from "next/link";
 import Heading from "./shared/Heading";
 import { contact } from "@/data/contact";
+import { Copy } from "lucide-react";
+import { toast } from "sonner";
 
 const Contact = () => {
   return (
@@ -23,20 +26,34 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
+      <div className="grid grid-cols-2 gap-6 md:grid-cols-3 md:gap-0">
         {contact.map((item, idx) => (
           <div key={idx}>
             <h3 className="mb-1.5 text-xl font-semibold leading-none text-neutral-800">
               {item.title}
             </h3>
-            <Link
-              href={item.href}
-              target="_blank"
-              aria-label={item.aria}
-              className="text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
-            >
-              {item.content}
-            </Link>
+            {item.content === "hello@markslorach.com" ? (
+              <button
+                onClick={() => {
+                  navigator.clipboard.writeText(item.content);
+
+                  toast.success("Email copied to clipboard! 🥳");
+                }}
+                className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
+              >
+                <Copy className="h-4 w-4" />
+                {item.content}
+              </button>
+            ) : (
+              <Link
+                href={item.href || '#'}
+                target="_blank"
+                aria-label={item.aria}
+                className="flex items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
+              >
+                {item.content}
+              </Link>
+            )}
           </div>
         ))}
       </div>

@@ -13,8 +13,7 @@ export const contact = [
   },
   {
     title: "Email",
-    href: "mailto:hello@markslorach.com",
     content: "hello@markslorach.com",
-    aria: "Link to email Mark Slorach",
+    aria: "Copy Mark Slorach's email address",
   },
 ];
