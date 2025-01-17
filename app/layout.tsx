@@ -40,7 +40,7 @@ export default function RootLayout({
           position="top-right"
           toastOptions={{
             success: {
-              duration: 3500,
+              duration: 3000,
               iconTheme: {
                 primary: "#60A5FA",
                 secondary: "#F9FAFB",
