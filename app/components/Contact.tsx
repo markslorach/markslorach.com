@@ -3,7 +3,6 @@ import Link from "next/link";
 import Heading from "./shared/Heading";
 import { contact } from "@/data/contact";
 import { Copy } from "lucide-react";
-import { toast } from "sonner";
 
 const Contact = () => {
   return (
@@ -36,8 +35,6 @@ const Contact = () => {
               <button
                 onClick={() => {
                   navigator.clipboard.writeText(item.content);
-
-                  toast.success("Email copied to clipboard! 🥳");
                 }}
                 className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
               >
@@ -46,7 +43,7 @@ const Contact = () => {
               </button>
             ) : (
               <Link
-                href={item.href || '#'}
+                href={item.href || "#"}
                 target="_blank"
                 aria-label={item.aria}
                 className="flex items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
