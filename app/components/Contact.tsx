@@ -42,7 +42,7 @@ const Contact = () => {
                   navigator.clipboard.writeText(item.content);
                   toast.success("Copied to clipboard!");
                 }}
-                className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
+                className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-colors sm:hover:text-neutral-800/80"
               >
                 <ClipboardDocumentCheckIcon className="h-[18px] w-[18px]" />
                 {item.content}
@@ -52,7 +52,7 @@ const Contact = () => {
                 href={item.href || "#"}
                 target="_blank"
                 aria-label={item.aria}
-                className="flex items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
+                className="flex items-center gap-1 text-lg text-neutral-800/60 transition-colors sm:hover:text-neutral-800/80"
               >
                 {item.content}
                 <ArrowTopRightOnSquareIcon className="h-[18px] w-[18px]" />
