@@ -14,14 +14,13 @@ const Avatar = () => {
       onClick={() => setIsHovering(!isHovering)}
     >
       <Image
-        src="/images/avatar.png"
-        alt="Avatar"
+        src="/images/waving.png"
+        alt="Waving Avatar"
         width={68}
         height={68}
         quality={80}
-        priority
         className={cn(
-          "-ml-1.5 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
+          "mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
           {
             "opacity-0": isHovering,
             "opacity-100": !isHovering,
@@ -29,13 +28,14 @@ const Avatar = () => {
         )}
       />
       <Image
-        src="/images/waving.png"
-        alt="Waving Avatar"
+        src="/images/avatar.png"
+        alt="Avatar"
         width={68}
         height={68}
         quality={80}
+        priority
         className={cn(
-          "absolute left-0 top-0 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
+          "absolute left-0 top-0 -ml-1.5 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
           {
             "opacity-100": isHovering,
             "opacity-0": !isHovering,
