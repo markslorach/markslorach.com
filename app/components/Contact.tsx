@@ -2,9 +2,12 @@
 import Link from "next/link";
 import Heading from "./shared/Heading";
 import { contact } from "@/data/contact";
-import { Copy } from "lucide-react";
 import toast from "react-hot-toast";
 import { CONTACT_EMAIL } from "@/constants";
+import {
+  ArrowTopRightOnSquareIcon,
+  ClipboardDocumentCheckIcon,
+} from "@heroicons/react/24/outline";
 
 const Contact = () => {
   return (
@@ -41,7 +44,7 @@ const Contact = () => {
                 }}
                 className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
               >
-                <Copy className="h-4 w-4" />
+                <ClipboardDocumentCheckIcon className="h-[18px] w-[18px]" />
                 {item.content}
               </button>
             ) : (
@@ -52,6 +55,7 @@ const Contact = () => {
                 className="flex items-center gap-1 text-lg text-neutral-800/60 transition-colors hover:text-neutral-800/80"
               >
                 {item.content}
+                <ArrowTopRightOnSquareIcon className="h-[18px] w-[18px]" />
               </Link>
             )}
           </div>
