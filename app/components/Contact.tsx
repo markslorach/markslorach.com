@@ -4,6 +4,7 @@ import Heading from "./shared/Heading";
 import { contact } from "@/data/contact";
 import { Copy } from "lucide-react";
 import toast from "react-hot-toast";
+import { CONTACT_EMAIL } from "@/constants";
 
 const Contact = () => {
   return (
@@ -32,7 +33,7 @@ const Contact = () => {
             <h3 className="mb-1.5 text-xl font-semibold leading-none text-neutral-800">
               {item.title}
             </h3>
-            {item.content === "hello@markslorach.com" ? (
+            {item.content === CONTACT_EMAIL ? (
               <button
                 onClick={() => {
                   navigator.clipboard.writeText(item.content);
