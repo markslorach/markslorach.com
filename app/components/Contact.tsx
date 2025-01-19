@@ -42,7 +42,7 @@ const Contact = () => {
                   navigator.clipboard.writeText(item.content);
                   toast.success("Copied to clipboard!");
                 }}
-                className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-all active:scale-95 sm:hover:text-neutral-800/80 sm:active:scale-100"
+                className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-all active:scale-95 sm:hover:text-neutral-800/80"
               >
                 <ClipboardDocumentCheckIcon className="h-[18px] w-[18px]" />
                 {item.content}
