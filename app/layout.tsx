@@ -30,7 +30,12 @@ export default function RootLayout({
       <body
         className={cn("bg-gray-50 font-sans antialiased", fontSans.variable)}
       >
-        <ThemeProvider>
+           <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem={false}
+            disableTransitionOnChange
+          >
           <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
             <GridPatternLinearGradient />
             <NavBar />
