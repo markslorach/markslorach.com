@@ -10,7 +10,7 @@ export function GridPatternLinearGradient() {
       x={-1}
       y={-1}
       className={cn(
-        "hidden opacity-50 [mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)] md:block",
+        "hidden opacity-40 [mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)] md:block",
       )}
     />
   );
