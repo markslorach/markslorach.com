@@ -10,6 +10,11 @@ import {
 } from "@heroicons/react/24/outline";
 
 const Contact = () => {
+  const handleCopyToClipboard = (content: string) => {
+    navigator.clipboard.writeText(content);
+    toast.success("Copied to clipboard!");
+  };
+
   return (
     <section>
       <div className="mb-16 space-y-2">
@@ -38,10 +43,7 @@ const Contact = () => {
             </h3>
             {item.content === CONTACT_EMAIL ? (
               <button
-                onClick={() => {
-                  navigator.clipboard.writeText(item.content);
-                  toast.success("Copied to clipboard!");
-                }}
+                onClick={() => handleCopyToClipboard(item.content)}
                 className="flex cursor-pointer items-center gap-1 text-lg text-neutral-800/60 transition-all active:scale-95 sm:hover:text-neutral-800/80"
               >
                 <ClipboardDocumentCheckIcon className="h-[18px] w-[18px]" />
