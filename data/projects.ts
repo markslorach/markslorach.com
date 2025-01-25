@@ -14,7 +14,7 @@ export const projects = [
     title: "minilist",
     description: "Minimalistic and distraction free task manager.",
     image: "/images/minilist_light.png",
-    href: "https://minilist.vercel.app",
+    href: null,
     github: "https://github.com/markslorach/minilist.git",
     slug: "minilist",
     aria: "Link to deployed minilist project",
