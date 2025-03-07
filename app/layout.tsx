@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-y-scroll" suppressHydrationWarning>
       <body
-        className={cn("bg-gray-50 font-sans antialiased", fontSans.variable)}
+        className={cn("bg-gray-50 font-sans", fontSans.variable)}
       >
         <main className="mx-auto flex h-dvh max-w-2xl flex-col px-4">
           <GridPatternLinearGradient />
