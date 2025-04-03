@@ -8,6 +8,9 @@ Source code for my [personal website](https://www.markslorach.com/).
 - Tailwind
 - Shadcn/ui
 
+## Hosting
+Self-hosted on a [Hetzner](https://www.hetzner.com/cloud) VPS using [Dokploy](https://dokploy.com/).
+
 ## Contact
 Mark Slorach - hello@markslorach.com
 
