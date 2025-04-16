@@ -4,7 +4,7 @@ export const projects = [
     title: "Countries DB",
     description: "Search, discover and learn about countries worldwide.",
     image: "/images/countries-db.png",
-    href: "https://countriesdb.vercel.app/",
+    href: "https://countriesdb.markslorach.com/",
     github: "https://github.com/markslorach/countries-db.git",
     slug: "countries-db",
     aria: "Link to deployed Countries DB project",

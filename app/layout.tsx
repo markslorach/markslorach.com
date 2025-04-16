@@ -39,6 +39,7 @@ export default function RootLayout({
         </main>
         <Toaster
           position="top-right"
+          
           toastOptions={{
             success: {
               duration: 3000,
