@@ -13,11 +13,11 @@ export const socialLinks = [
     href: "https://linkedin.com/in/markslorach",
     icon: <FaLinkedin className="h-7 w-7" />,
   },
-  {
-    title: "Bluesky",
-    href: "https://bsky.app/profile/markslorach.com",
-    icon: <FaBluesky className="h-7 w-7" />,
-  },
+  // {
+  //   title: "Bluesky",
+  //   href: "https://bsky.app/profile/markslorach.com",
+  //   icon: <FaBluesky className="h-7 w-7" />,
+  // },
 ];
 
 const StickyLinks = () => {

@@ -9,7 +9,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       href={project.href ? project.href : project.github}
       target="_blank"
       aria-label={project.aria}
-      className="block space-y-5 rounded-lg bg-gray-100 p-3 shadow-sm transition-all duration-300 ease-in-out hover:bg-gray-200/60"
+      className="block space-y-5 rounded-md bg-gray-100 p-3 shadow-sm transition-all duration-300 ease-in-out hover:bg-gray-200/60"
     >
       <AspectRatio className="rounded-lg" ratio={16 / 9}>
         <Image
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           width={960}
           height={540}
           priority
-          className="rounded-lg border-2 border-gray-200/20"
+          className="rounded-md border-2 border-gray-200/20"
         />
       </AspectRatio>
 

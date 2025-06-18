@@ -10,7 +10,7 @@ const ExperienceCard = ({ role }: { role: Experience }) => {
         height={50}
         src={role.logo}
         alt={role.company}
-        className="h-12 w-12 rounded-lg"
+        className="h-12 w-12 rounded-md"
       />
 
       <div className="flex w-full flex-col">
