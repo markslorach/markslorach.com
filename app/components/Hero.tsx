@@ -13,15 +13,15 @@ const Hero = () => {
         </h1>
 
         <span className="text-xl font-light text-neutral-800/60 md:text-[23px]">
-          A full-stack software developer based in Scotland.
+          A software developer based in Scotland.
         </span>
       </div>
 
       <p className="text-balance text-lg font-light text-neutral-600 md:text-[19px]">
-        I'm a full-stack developer with a keen interest in front-end
-        development. I recently graduated from CodeClan's software development
-        bootcamp following a career as a freelance videographer. I enjoy all
-        things code, especially working with React and the JavaScript ecosystem.
+        I build web applications with React, Next.js and TypeScript. I love
+        experimenting with new tech - recently I've been creating tools that
+        integrate with AI systems using MCP. I'm a bootcamp graduate with a
+        background in video production and commercial drone operation.
       </p>
 
       <div className="mt-6 flex space-x-3 lg:hidden">
