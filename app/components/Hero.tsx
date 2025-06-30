@@ -19,7 +19,7 @@ const Hero = () => {
 
       <p className="text-balance text-lg font-light text-neutral-600 md:text-[19px]">
         I build web applications with React, Next.js and TypeScript. I love
-        experimenting with new tech - recently I've been creating tools that
+        experimenting with new tech, recently I've been creating tools that
         integrate with AI systems using MCP. I'm a bootcamp graduate with a
         background in video production and commercial drone operation.
       </p>
