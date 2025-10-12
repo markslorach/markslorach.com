@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           width={960}
           height={540}
           priority
-          className="rounded-md border-2 border-gray-200/20"
+          className="rounded-md border-2 object-cover aspect-video border-gray-200/20"
         />
       </AspectRatio>
 
