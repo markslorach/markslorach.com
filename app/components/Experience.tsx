@@ -1,4 +1,4 @@
-import { experience } from "@/data/experience";
+import { experience } from "@/content/experience";
 import Heading from "./shared/Heading";
 import ExperienceCard from "./ExperienceCard";
 

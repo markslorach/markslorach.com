@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Heading from "./shared/Heading";
-import { contact } from "@/data/contact";
+import { contact } from "@/content/contact";
 import toast from "react-hot-toast";
 import { CONTACT_EMAIL } from "@/constants";
 import {

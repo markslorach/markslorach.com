@@ -1,4 +1,4 @@
-import { projects } from "@/data/projects";
+import { projects } from "@/content/projects";
 import ProjectCard from "./ProjectCard";
 import Heading from "./shared/Heading";
 import Link from "next/link";
