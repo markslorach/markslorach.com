@@ -1,17 +1,17 @@
 import { Project } from "@/types/types";
 
 export const projects: Project[] = [
-  {
-    id: crypto.randomUUID(),
-    title: "Boskalis Maintenance",
-    description:
-      "Custom built equipment maintenance system for tracking, scheduling and lifecycle management.",
-    image: "/images/boskalis-maintenance.png",
-    href: null,
-    github: "https://github.com/markslorach/boskalis-maintenance.git",
-    slug: "boskalis-maintenance",
-    aria: "Link to github repository for Boskalis Maintenance",
-  },
+  // {
+  //   id: crypto.randomUUID(),
+  //   title: "Boskalis Maintenance",
+  //   description:
+  //     "Custom built equipment maintenance system for tracking, scheduling and lifecycle management.",
+  //   image: "/images/boskalis-maintenance.png",
+  //   href: null,
+  //   github: "https://github.com/markslorach/boskalis-maintenance.git",
+  //   slug: "boskalis-maintenance",
+  //   aria: "Link to github repository for Boskalis Maintenance",
+  // },
   {
     id: crypto.randomUUID(),
     title: "Invoice MCP",
