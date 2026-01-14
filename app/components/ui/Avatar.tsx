@@ -18,7 +18,7 @@ const Avatar = () => {
         alt="Avatar"
         width={68}
         height={68}
-        quality={80}
+        quality={75}
         priority
         className={cn(
           "absolute left-0 top-0 -ml-1.5 mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
@@ -33,7 +33,7 @@ const Avatar = () => {
         alt="Waving Avatar"
         width={68}
         height={68}
-        quality={80}
+        quality={75}
         className={cn(
           "mb-3 rounded-2xl transition-opacity duration-200 ease-in-out",
           {

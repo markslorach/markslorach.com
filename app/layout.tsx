@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
 import { Nunito_Sans as FontSans } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/shared/NavBar";
@@ -57,7 +56,6 @@ export default function RootLayout({
             },
           }}
         />
-        <Analytics />
       </body>
     </html>
   );
